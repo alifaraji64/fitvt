@@ -1,0 +1,51 @@
+main {
+	#all-users {
+		margin: 2rem 0;
+		background-color: $nav-color;
+		padding: 1rem;
+		h3 {
+			color: $lightgray;
+			float: left;
+		}
+		input {
+			background-color: lighten($primary, 30%);
+			border: none;
+			width: 70%;
+			color: $lightgray;
+			padding: 7px;
+			border-radius: 10px;
+			margin-bottom: 10px;
+			&::placeholder {
+				color: $lightgray;
+			}
+		}
+		.single-user {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 2rem;
+			.img-name {
+				display: flex;
+				align-items: center;
+				img {
+					vertical-align: middle;
+					width: 80px;
+					height: 80px;
+					border-radius: 50%;
+				}
+				p {
+					margin-left: 10px;
+					color: $lightgray;
+				}
+			}
+			.add-btn {
+				button {
+					color: $lightgray;
+					background-color: $btn-blue;
+					padding: 10px;
+					border-radius: 100%;
+				}
+			}
+		}
+	}
+}

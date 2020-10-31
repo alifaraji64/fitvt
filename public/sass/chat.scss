@@ -1,0 +1,24 @@
+#chat {
+	margin: 2rem 0;
+	background-color: $nav-color;
+	.single-user {
+		display: flex;
+		margin: 2rem 0;
+		color: $lightgray;
+		padding: 1rem;
+		cursor: pointer;
+		img {
+			vertical-align: middle;
+			width: 55px;
+			height: 55px;
+			border-radius: 50%;
+			margin: 0 1rem;
+		}
+		.text {
+			h3 {
+			}
+			p {
+			}
+		}
+	}
+}

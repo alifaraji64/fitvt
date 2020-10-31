@@ -1,0 +1,54 @@
+main {
+	section {
+		padding: 15px;
+		color: $lightgray;
+		margin: 1rem 0;
+		text-align: center;
+		background-color: $nav-color;
+		h3 {
+			float: left;
+		}
+	}
+	#workout-select {
+		select {
+			background-color: $nav-color;
+			color: $lightgray;
+			span {
+				display: none;
+			}
+		}
+	}
+	#workout-title,
+	#post-title {
+		input {
+			width: 50%;
+			background-color: lighten($primary, 50%);
+			height: 10vh;
+			border: none;
+			border-radius: 15px;
+		}
+		input:focus {
+			background-color: lighten($primary, 60%);
+			outline: none;
+		}
+	}
+	#workout-desc {
+		textarea {
+			width: 60%;
+			background-color: lighten($primary, 50%);
+			border: none;
+			border-radius: 15px;
+			padding: 20px;
+		}
+	}
+	#workout-image {
+		input {
+			background-color: lighten($primary, 50%);
+		}
+	}
+	button {
+		background-color: $btn-blue !important;
+		border-radius: 20px;
+		color: $lightgray;
+	}
+}
